@@ -17,7 +17,11 @@
    ```bash
    git clone https://github.com/JeffersonQin/alchemist-helper
    ```
-2. 执行脚本
+2. 脚本赋权
+   ```bash
+   chmod 777 ./alchemist-helper/deploy.sh
+   ```
+3. 执行脚本
    ```bash
    ./alchemist-helper/deploy.sh <your-repo-to-clone>
    ```
