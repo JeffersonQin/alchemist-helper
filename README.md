@@ -55,7 +55,7 @@ warnings.filterwarnings("ignore")
 
 ```python
 from IPython.display import FileLink, display
-display(FileLink(('./path/to/file'))
+display(FileLink('./path/to/file'))
 ```
 
 ## Google Drive 压缩文件
