@@ -44,7 +44,7 @@ warnings.filterwarnings("ignore")
 下载 Google Drive 文件，先安装 `gdown`:
 
 ```
-!conda install -y gdown
+!pip install gdown
 ```
 
 下载文件：
