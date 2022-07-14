@@ -1,5 +1,7 @@
 # alchemist-helper
 
+<a href="https://colab.research.google.com/gist/JeffersonQin/fee89976e6c15cc2828a682baf693621/easyclone.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 炼丹助手，用于快速部署到各大白嫖平台：
 
 * Colab
