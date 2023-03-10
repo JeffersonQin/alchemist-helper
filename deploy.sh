@@ -2,6 +2,10 @@
 # clone repo to tmp folder
 mkdir tmp
 git clone $1 tmp
+# checkout to the destination branch if specified
+if [ -n "$2" ] ;then
+  git -C tmp checkout $2
+fi
 # move to current folder
 (shopt -s dotglob; mv tmp/* .)
 rm -rf tmp
